@@ -23,6 +23,33 @@ $(document).ready(function() {
     var num1 = parseInt($("#add1").val());
     var num2 = parseInt($("#add2").val());
     var result = add(num1, num2);
-    $("#output").text(result);
+    $(".output1").text(result);
+
+  });
+
+  $("form#subtract").submit(function(event) {
+    event.preventDefault();
+    var num1 = parseInt($("#sub1").val());
+    var num2 = parseInt($("#sub2").val());
+    var result = subtract(num1, num2);
+    $(".output2").text(result);
+
+  });
+
+  $("form#multiply").submit(function(event) {
+    event.preventDefault();
+    var num1 = parseInt($("#mult1").val());
+    var num2 = parseInt($("#mult2").val());
+    var result = multiply(num1, num2);
+    $(".output3").text(result);
+
+  });
+
+  $("form#divide").submit(function(event) {
+    event.preventDefault();
+    var num1 = parseInt($("#divide1").val());
+    var num2 = parseInt($("#divide2").val());
+    var result = divide(num1, num2);
+    $(".output4").text(result);
   });
 });
