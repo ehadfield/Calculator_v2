@@ -1,12 +1,12 @@
-# _Calculator_
+# _Calculator v2.0_
 
-#### _A calculator app, March 25,2019_
+#### _A calculator app, March 27,2019_
 
-#### By _**Katlin Anderson and Reese Lee**_
+#### By _**Evan Hadfield, Katlin Anderson and Reese Lee**_
 
 ## Description
 
-_This is a calculator app made with HTML and JavaScript._
+_This is a calculator app made with HTML, jQuery, CSS, Bootstrap and JavaScript._
 
 ## Setup/Installation Requirements
 
@@ -16,10 +16,10 @@ _This is a calculator app made with HTML and JavaScript._
 
 ## Technologies Used
 
-_We used HTML and JavaScript to create this app._
+_We used HTML, jQuery, CSS, Bootstrap and JavaScript to create this app._
 
 ### License
 
 *MIT license.*
 
-Copyright (c) 2016 **_Katlin Anderson and Reese Lee_**
+Copyright (c) 2019 **_Evan Hadfield, Katlin Anderson and Reese Lee_**
